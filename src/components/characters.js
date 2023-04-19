@@ -2,7 +2,11 @@ import React, {useState, useEffect} from 'react'
 
 const Characters = () => {
 
-    // Estados
+    //public key = 7fd6829ec8cfb0b586b532707b5fd01e
+    //private key = 5c912ba082eec0e9cdfefe45b544811bf35ce2be
+    //hash = bfa6d4a1d36b6069beff4df09974fb82
+    //ts = 1
+    
     const [character, setCharacter] = useState([])
 
     useEffect(() => {
