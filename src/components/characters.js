@@ -11,7 +11,7 @@ const Characters = () => {
 
     useEffect(() => {
         
-        fetch('https://gateway.marvel.com/v1/public/characters?limit=100&offset=1000&ts=1&apikey=7fd6829ec8cfb0b586b532707b5fd01e&hash=bfa6d4a1d36b6069beff4df09974fb82')
+        fetch('https://gateway.marvel.com/v1/public/characters?limit=100&offset=800&ts=1&apikey=7fd6829ec8cfb0b586b532707b5fd01e&hash=bfa6d4a1d36b6069beff4df09974fb82')
             .then(response => response.json())
             .then(data => setCharacter(data.data.results))
 
