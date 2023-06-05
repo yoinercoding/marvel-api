@@ -6,7 +6,6 @@ const Header = ({title}) => {
             <div className="container">
                 <div className="content">
                     <h1 className="title">{title}</h1>
-                    <p className="text">This project ilustrate the characters of the Marvel Studios</p>
                 </div>
             </div>
         </header>
